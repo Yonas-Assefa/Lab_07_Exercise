@@ -1,0 +1,15 @@
+[{
+    "name": "John 1",
+    "image": "Any Image URL ",
+    "postTitle": "Post One",
+    "date": "January 21 ,2021",
+    "postText": "Lorem Ipsum ……..."
+   },
+   {
+    "name": "John 2",
+    "image": "Any Image URL ",
+    "postTitle": "Post Two",
+    "date": "January 21 ,2021",
+    "postText": "Lorem Ipsum ……..."
+   }
+   ]
