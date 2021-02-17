@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: url(../images/nature1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock{
+    position: absolute;
+    top: 5%;
+    left: 24%;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.clock img{
+    height: 100%;
+    width: 100%;
+}
+
+.pointers{
+    position: absolute;
+    width:24%;
+    top: 49.5%;
+    transform-origin: 100%;
+    left: 25%;
+   
+}
+
+.min{
+    width:25%;
+    top: 49.5%;
+    left: 24.3%;
+    background-color:#fdf;
+    height: 5px;
+    z-index: 11;
+   
+}
+
+
+.sec{
+
+    width:33%;
+    top: 49.5%;
+    left: 16.5%;
+    background-color:rgb(233, 91, 8);
+    height: 3px; 
+    z-index: 12;
+   
+}
+
+.hour{
+
+    width:20%;
+    top: 49.5%;
+    left: 29%;
+    background-color: #666;
+    height: 7px;
+    z-index: 10;
+   
+}
+
+
+
+
+
+
+/* the little pin dot at the center of the clock */
+.centerDot{
+    position: absolute;
+    height: 3vh;
+    width: 1.5vw;
+    background-color:#ffa;
+    left: 47.5%;
+    top: 47.5%;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+
+
